@@ -23,8 +23,8 @@ jobs:
       run: npm install
     - name: Run unit tests for the application
       run: npm run test:unit
-    # - name: Display username
-    #   run: echo "YanevDimo"
+    - name: Display username
+      run: echo "YanevDimo"
 
   deploy:
     needs: build-test
